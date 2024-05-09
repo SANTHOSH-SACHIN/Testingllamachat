@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq, InternalServerError
 
 # Groq API Key
-API_KEY = st.secrets["GROQ_API_TOKEN"]
+API_KEY = "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"
 
 # Initialize the Groq API
 client = Groq(api_key=API_KEY)
